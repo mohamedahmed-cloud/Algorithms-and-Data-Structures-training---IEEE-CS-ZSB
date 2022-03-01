@@ -1,18 +1,37 @@
-# input operation
-n=int(input())
-order_of_pulling=list(map(int,input().split()))
-i=0
-exist=1
-list=[]
-while i <n:
-    list.append(exist)
-    if order_of_pulling[i]!=order_of_pulling[i+1]:
-        exist+=1
-        list.append(exist)
-    
-    if order_of_pulling[i]==order_of_pulling[i+1]:
-        exist-=1
-        list.append(exist)
+# input Operation 
+number_of_socks=int(input())
+bag_socks=list(map(int, input().split()))
+# OutPut operation
+table_socks=set()
+# counter_list=[]
+max_table_socks=0
+# counter=0
 
-    i+=1
-print(max(list))
+for S in bag_socks:
+    if S not in table_socks:
+        # counter-=1
+        table_socks.add(S)
+        if len(table_socks)>max_table_socks:
+            max_table_socks=len(table_socks)
+        
+       
+        # counter_list.append(counter)
+    else:
+        table_socks.remove(S)
+
+        # counter+=1
+        # counter_list.append(counter)
+print(max_table_socks)
+
+########################################################################
+# n= int(input())
+# array=list(map(int,input().split()))
+# sets=set()
+# c=0
+# for x in array:
+#     if x not in sets:
+#         sets.add(x)
+#         c=max(len(sets),c)
+#     else:
+#         sets.remove(x)
+# print(c)
