@@ -2,7 +2,8 @@
 number_of_problems,solving_skills=list(map(int,input().split()))
 problems=[]
 problems.append(list(map(int,input().split())))
-# Output Operation
+#Output Operation
+
 counter=0 
 j=1
 my_Second_counter=0

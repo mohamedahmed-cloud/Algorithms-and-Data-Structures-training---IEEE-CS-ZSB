@@ -2,7 +2,7 @@
 Black_White=["B","W","G"]
 Colored=["C","M","Y"]
 n,m=list(map(int,input().split()))
-# output Operation
+#  output Operation
 my_list=[]
 for i in range(n):
     Colors=list(map(str,input().split()))

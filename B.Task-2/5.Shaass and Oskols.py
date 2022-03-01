@@ -1,3 +1,5 @@
+# I can't simplify it more than this 
+# This solution is correct but becuase time limitation can't run on test 25 
 # input Operation 
 
 number_of_wires=int(input())

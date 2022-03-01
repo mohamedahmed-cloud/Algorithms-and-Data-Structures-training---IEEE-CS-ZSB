@@ -4,7 +4,6 @@ contest_score=list(map(int,input().split()))
 
 # Output Operation
 
-
 # This Make run time error
 # amazing_up=0
 # amazing_down=0

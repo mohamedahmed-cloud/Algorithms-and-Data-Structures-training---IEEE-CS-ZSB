@@ -18,6 +18,4 @@ for i in range(5):
 print(number_of_moves)
 
 
-# my_str=[]
-# print(my_count)
-# print(My_index)
+

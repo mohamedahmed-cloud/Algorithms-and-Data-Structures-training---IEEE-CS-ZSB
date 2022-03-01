@@ -17,7 +17,7 @@ for i in range(len(cards)):
                 cards.remove(cards[0])
                 num+=1
 
-    else: # Let Dima to choose second TO prevent Dima to choose if there is no elemnt in cards list
+    else: #   Let Dima to choose second TO prevent Dima to choose if there is no elemnt in cards list
         if cards[-1]>cards[0]:
             Dima_points+= cards[-1]
             cards.remove(cards[-1])
