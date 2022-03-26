@@ -1,3 +1,4 @@
+# He didn't give me the explanation or test cases
 p, n = list(map(int, input().split()))
 
 
