@@ -6,7 +6,7 @@ if p == 0:
 if p == 1 or p == 2:
     print(1, end=' ')
 if p == 3:
-    print(2, end=' ')
+    print(1, end=' ')
 for i in range(4, n+1):
     n3 = n1+n2
     n1 = n2
