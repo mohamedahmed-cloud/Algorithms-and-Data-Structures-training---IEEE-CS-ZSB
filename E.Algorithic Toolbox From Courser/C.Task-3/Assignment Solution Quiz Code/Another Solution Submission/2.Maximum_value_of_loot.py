@@ -11,9 +11,9 @@ for i in range(n):
     if v == 0:
         continue
     lst.append((v, w))
-
+print(lst)
 lst.sort(key = lambda x: x[0]/x[1], reverse = True)
-
+print(lst)
 total_value = 0
 
 for v,w in lst:
